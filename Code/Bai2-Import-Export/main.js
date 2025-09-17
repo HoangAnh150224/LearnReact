@@ -25,7 +25,7 @@ console.log(myModule2.df2);// không dùng được vì trong export = nó khôn
 
 import df2 from "./named.js";
 console.log(df2);
-
+ 
 // hoặc có thể import liệt kể như sau
 import df2 , { myVar as var2, myFunc as func2, myVar2 as var3, myFunc2 as func3 } from "./named.js";
 console.log(df2);
